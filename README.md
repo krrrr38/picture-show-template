@@ -2,6 +2,8 @@
 
 write markdown, then convert html slideshow
 
+[picture-show](https://github.com/softprops/picture-show) utility
+
 ## Usage
 
 - setup
@@ -10,6 +12,7 @@ write markdown, then convert html slideshow
 	- `gulp watch`
 	- open `http://localhost:3000`
 	- when write slide/slide.md, reload page automatically with livereload
+	- to use livereload, need to install [Chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=ja)
 - show
 	- `gulp start`
 - export
