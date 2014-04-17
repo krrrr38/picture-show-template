@@ -1,0 +1,168 @@
+* {
+    margin-left:.5px;
+    margin-right:.5px;
+}
+
+body {
+    font-family:Helvetica, Arial;
+    font-weight:bold;
+    font-size:3.4em;
+    font-family: "uzura_font",monospace;
+}
+
+.hc, pre {
+    font-size:28px;
+    text-align:left;
+    font-family:monaco, monospace;
+    font-weight:normal;
+    white-space:pre;
+}
+.small{ font-size: 20px;}
+
+code {
+    font-size:38px;
+    text-align:left;
+    font-family: "Ricty Discord",monospace;
+    font-weight:normal;
+    white-space:pre;
+}
+
+pre {
+    margin:10px 5px;
+    border-left: solid 1px gray;
+    padding-left: 0.5em;
+    overflow:auto;
+    max-height:100%;
+}
+
+img {
+    margin-left: 50px;
+}
+
+.container {
+    color:#666;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.sub { font-size:28px; }
+.center { text-align:left; }
+
+h1 {
+    font-size:110px;
+    color:black;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size:60px;
+    color:black;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+h3 {
+    font-size:55px;
+    color:black;
+    margin-left: 25px;
+}
+
+/* p { font-size:64px; } */
+.support { font-size:38px }
+
+ul, ol {
+    font-size: 45px;
+    margin: 10px 0 10px 1em;
+}
+
+li {
+    margin: 10px 0;
+}
+
+strong { color:#FF1385; }
+
+em {
+    color:#12A0FF;
+    font-style:normal;
+}
+
+span { color:#FF8C00; }
+.or { color:#FF8C00; }
+.ex { color:#12A0FF; }
+.comment {color:#ccc;}
+.cy { color:darkcyan;}
+.center { font-size: 4em }
+
+blockquote {
+    font-family: Georgia, Serif;
+    display: block;
+    padding: 1em 60px;
+    width: 90%;
+}
+
+blockquote:before, blockquote:after {
+    color: #633;
+    display: block;
+    font-size: 210%;
+}
+
+blockquote:before {
+    content: '\201C';
+    height: 0;
+    margin-left: -0.55em;
+}
+
+blockquote:after {
+    content: '\201D';
+    height: 50px;
+    margin-top: -70px;
+    margin-left: 100%;
+}
+
+div#slides {
+/* background: url('./tw_maxi_big.png') no-repeat fixed right bottom ; */
+}
+
+table {
+    color: #666;
+    width: 80%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-collapse: separate;
+    font-size:32px;
+    border: 1px solid #DDD;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-spacing: 0;
+}
+
+table th {
+    border-bottom-color: #FFC40D;
+    background-color: #FFF6D9;
+    color:#FF1385;
+}
+table th, table td {
+    padding: 10px 10px 9px;
+    border-left: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+table tr.ave{
+    border-top-color: #049CDB;
+    background-color: #DEF;
+    color:#12A0FF;
+}
+table td.num{
+    background-color: #EEE;
+}
+
+
+.lnr { color: #ffff00; }
+.Type { color: #8080ff; font-weight: bold; }
+.Statement { color: #ff6060; }
+.Constant { color: #ff40ff; font-weight: bold; }
+.Identifier { color: #8080ff; font-weight: bold; }
+.Special { color: #ff40ff; font-weight: bold; }
+.PreProc { color: #ff40ff; font-weight: bold; }
+
+a:link, a:visited { color:#12A0FF; text-decoration:none; }
+a:hover { color:#FF1385; }
